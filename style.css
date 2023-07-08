@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&family=Pacifico&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.zA8isPuumB001hLIQQzeZAAAAA?pid=ImgDet&w=474&h=842&rs=1);
+    background-size: ;
+}
+
+main{
+    margin: 0 auto;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo, .subtitulo{
+    display: flex;
+    flex-direction: column;
+    transform: translate(0px, 150px);
+    margin: 0 auto;
+    font-family: cursive;
+    font-size: 70px;
+}
+
+.subtitulo{
+    color: black;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.botones a{
+    text-decoration: none;
+    color: white;
+}
+
+.botones .si, .no{
+    padding: 15px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    transform: translate(0px, 200px);
+    box-shadow: 1px 4px 2px 2px #da02ec9c;
+}
+
+.si{
+    background-color: rgb(255, 0, 183);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.no{
+    background-color: rgb(255, 0, 183);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.si:hover, .no:hover{
+    background-color: rgb(212, 2, 152);
+    box-shadow: 1px 4px 2px 2px #9703a49c;
+}
